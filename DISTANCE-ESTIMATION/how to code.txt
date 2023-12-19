@@ -1,0 +1,13 @@
+camera calibration - done
+calculating distance - done
+
+x = right/left
+y = front/back
+z = up/down (it will always be positive)
+
+algo:
+1. calculate distance (find x,y,z and save it somewhere,
+may be pass in a function and exit(0))
+2. first go right/left (using x)
+3. then go forward/backward (using y)
+4. land
